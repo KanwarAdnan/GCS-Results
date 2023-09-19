@@ -2,7 +2,7 @@ function downloadResults() {
     const rollNumber = document.getElementById('rollNumber').value;
     const semester = document.getElementById('semester').value;
 
-    const apiUrl = `https://gcs-bs-results-vvicnw7txq-uc.a.run.app/download/${rollNumber}/${semester}`;
+    const apiUrl = `https://gcs-bs-results-vvicnw7txq-uc.a.run.app/download/results/${rollNumber}/${semester}`;
 
     const link = document.createElement('a');
     link.href = apiUrl;
